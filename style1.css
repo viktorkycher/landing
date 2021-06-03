@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.button1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 17px;
+  width: 211px;
+  height: 60px;
+  cursor: pointer;
+  text-align: center;
+
+  color: #ffffff;
+  background-color: #ff7143;
+  border: none;
+  border-radius: 10px;
+}
+
+.button1:hover {
+  background-color: orange;
+}
+
+.button1:active {
+  background-color: orange;
+  transform: translateY(4px);
+}
