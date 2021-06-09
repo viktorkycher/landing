@@ -49,6 +49,7 @@
   color: #696871;
   display: inline-block;
   padding-bottom: 10px;
+  margin-top: 20px;
 }
 .button1 {
   display: inline-block;
@@ -58,13 +59,23 @@
   height: 60px;
   cursor: pointer;
   text-align: center;
-
   color: #ffffff;
   background-color: #ff7143;
   border: none;
   border-radius: 10px;
 }
-
+.arrow {
+  margin-top: 50px;
+  margin-left: 20px;
+  height: 60px;
+  width: 60px;
+  background: #ffffff;
+  border: 1px solid #e7e7e7;
+  border-radius: 50%;
+  color: #19191b;
+  font-size: 40px;
+  cursor: pointer;
+}
 .button1:hover {
   background-color: orange;
 }
@@ -155,7 +166,7 @@ p {
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
-  width: 50%;
+
   margin-top: 30px;
   margin-bottom: 30px;
 }
@@ -211,4 +222,152 @@ h4 {
   padding-left: 120px;
   padding-top: 150px;
   padding-bottom: 20px;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 70px;
+}
+.plan {
+  float: left;
+}
+.plan_button {
+  float: right;
+  width: 40%;
+  text-align: right;
+  padding-top: 45px;
+}
+
+.plan_button button:first-child {
+  height: 60px;
+  min-width: 160px;
+  padding: 20px;
+  border: none;
+  background: #5454d4;
+  border-radius: 10px 0px 0px 10px;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+.plan_button button {
+  height: 60px;
+  min-width: 160px;
+  padding: 20px;
+  border: none;
+  background: #f7f7fb;
+  border-radius: 0px 10px 10px 0px;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  color: #19191b;
+  cursor: pointer;
+}
+.container_plan {
+  overflow: hidden;
+  padding-top: 100px;
+  padding-bottom: 80px;
+}
+.container {
+  overflow: hidden;
+}
+.plan_text {
+  width: 55%;
+  float: left;
+}
+.price {
+  float: left;
+  background: #f8f8f8;
+  border-radius: 10px;
+  margin-right: 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  width: 31%;
+}
+.over_price {
+  overflow: hidden;
+  margin-bottom: 175px;
+}
+.price p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 50px;
+  text-align: center;
+}
+.bellow_head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 56px;
+  text-align: center;
+}
+.head {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+}
+.bellow_head p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 50px;
+  text-align: center;
+}
+span {
+  font-size: 25px;
+}
+.price button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 17px;
+  width: 225px;
+  height: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: #5454d4;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  margin-left: 55px;
+  margin-bottom: 25px;
+}
+.txt p {
+  width: 50%;
+}
+.price2 {
+  float: left;
+  background: #9f3919;
+  border-radius: 10px;
+  margin-right: 20px;
+  background: #ff7143;
+  border-radius: 10px;
+  width: 31%;
+  box-shadow: 0px 32px 34px rgba(255, 112, 59, 0.317827);
+}
+.price2 button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 17px;
+  width: 225px;
+  height: 60px;
+  cursor: pointer;
+  text-align: center;
+  color: #ffffff;
+  background-color: #9f3919;
+  border: none;
+  border-radius: 10px;
+  margin-left: 55px;
+  margin-bottom: 25px;
+}
+.price2 p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 50px;
+  text-align: center;
 }
